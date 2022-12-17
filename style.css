@@ -17,20 +17,52 @@ url(/Fonts/Poppins/Poppins-Bold.ttf) format('truetype')
     margin: 0;
     padding: 0;
 }
-aside{
+a{
+    text-decoration: none;
+}
+
+header{
+    margin-top: 50px;
+    height: 100%;
     width: 150px;
+    padding: 25px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+    flex-direction: column;
     background-color: transparent;
     position: fixed;
 }
 #hero{
+    width: auto;
     height: 1053px;
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
+    background-repeat: no-repeat;
     background-image: url(images/hero-bg.jpg);
+}
+
+h1, h2, h3{
+    font-family:'Raleway','serif';
+    padding: 15px 0 ;
+}
+#about, #resume, #portfolio, #contact{
+    margin: 100px 200px;
+}
+ul{
+    list-style: none;
+}
+nav ul li{
+    color: white;
+    width: 15px;
+    height: 15px;
+    /* display: block; */
+    border-radius: 50%;
+    /* background-color: #0563bb; */
+    font-family: 'Open-Sans', serif;
+    padding: 15px;
+}
+nav ul li .ancre{
+    color: white;
+    display: none;
 }
