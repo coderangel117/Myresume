@@ -21,16 +21,6 @@ a{
     text-decoration: none;
 }
 
-header{
-    margin-top: 50px;
-    height: 100%;
-    width: 150px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    position: fixed;
-}
 #hero{
     width: auto;
     height: 1053px;
@@ -49,20 +39,9 @@ h1, h2, h3{
 #about, #resume, #portfolio, #contact{
     margin: 100px 200px;
 }
-ul{
-    list-style: none;
+
+
+*, *:hover, *::before, *::after {
+    box-sizing: border-box;
 }
-nav ul li{
-    color: white;
-    width: 15px;
-    height: 15px;
-    /* display: block; */
-    border-radius: 50%;
-    /* background-color: #0563bb; */
-    font-family: 'Open-Sans', serif;
-    padding: 15px;
-}
-nav ul li .ancre{
-    color: white;
-    display: none;
-}
+
