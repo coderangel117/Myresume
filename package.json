@@ -4,7 +4,7 @@
   "description": "reproduction du template de Bootstrapmade",
   "main": "script.js",
   "scripts": {
-    "compile" : "node-sass assets/main.scss assets/main.css",
+    "compile" : "node-sass assets/scss/main.scss assets/css/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
