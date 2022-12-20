@@ -1,0 +1,27 @@
+@import 'font';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#about, #resume, #portfolio, #contact {
+  margin: 100px 200px;
+}
+
+/** début section hero*/
+@import 'hero';
+/** fin section hero*/
+
+h2, h3 {
+  font-family: 'Raleway', 'serif';
+  padding: 15px 0;
+}
+/** début section header*/
+@import 'header';
+/** fin section header*/
+
